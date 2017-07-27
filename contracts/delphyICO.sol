@@ -25,9 +25,9 @@ contract DelphyICO {
     /*
      *  Constants
      */
-    uint constant public STEP1_ENDDAY = 2 days;
-    uint constant public STEP2_ENDDAY = 6 days;
-    uint constant public STEP3_ENDDAY = 13 days;
+    uint constant public STEP1_ENDDAY = 2;
+    uint constant public STEP2_ENDDAY = 6;
+    uint constant public STEP3_ENDDAY = 13;
     
     uint constant public MAX_TOKENS_SOLD = 5000000 * 10**18; // 5M
     

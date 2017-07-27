@@ -1,4 +1,4 @@
-pragma solidity ^0.4.10;
+pragma solidity 0.4.10;
 
 
 /// @title Abstract token contract - Functions to be implemented by token contracts.
@@ -15,7 +15,6 @@ contract Token {
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
-
 
 contract StandardToken is Token {
 
